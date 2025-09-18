@@ -1,6 +1,6 @@
 This project explores the implementation of *Q-Learning*, a reinforcement learning technique, to train an agent to find the *optimal path* in a 2D grid environment with different types of terrains.
 
-## 📘 Project Overview
+##  Project Overview
 The main objective is to enable an agent to navigate from a *start position* to a *goal position* while minimizing movement costs and avoiding obstacles.  
 The environment is represented as a grid containing:
 - *Free cells (0)*: normal path
@@ -10,14 +10,14 @@ The environment is represented as a grid containing:
 
 The agent learns through trial and error to optimize its path.
 
-## ⚙️ Features
+##  Features
 - *Custom movement cost function* (move_cost) handling orthogonal and diagonal moves.
 - *Reward assignment* (get_reward) for goals, water, invalid moves, etc.
 - *Q-Learning training loop* (train_q_learning) for iterative learning.
 - *Path extraction* (extract_path) to reconstruct and evaluate the learned optimal path.
 - Comparative experiments with different *Q-Learning hyperparameters*.
 
-## 📊 Results
+##  Results
 The trained agent successfully:
 - Finds a valid path to the goal.
 - Minimizes traversal costs by avoiding costly terrains.
@@ -30,7 +30,7 @@ Several test cases are provided:
 
 A detailed comparative analysis of steps, total cost, and execution time is included in the report.
 
-## 🛠️ Technologies
+##  Technologies
 - *Python*
 - *NumPy*
 - *Matplotlib* (for visualization)
